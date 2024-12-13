@@ -9,7 +9,7 @@ import CartPage from './components/CartPage';
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
 import Shopingcardpage from './components/Shopingcardpage';
-import Productcardpage from "./components/ProductCardPage"
+// import Productcardpage from "./components/ProductCardPage"
 import CheckoutPage from './components/CheckoutPage';
 // import authSlice from "./redux/authSlice"
 const App = () => {
@@ -25,7 +25,7 @@ const App = () => {
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/cart" element={<CartPage />} />
-        <Route path="/productcardpage" element={<Productcardpage />} />
+        {/* <Route path="/productcardpage" element={<Productcardpage />} /> */}
         <Route path="/checkoutpage" element={<CheckoutPage />} />
         {/* <Route path="/authslice" element={<authSlice/>} /> */}
         
